@@ -1,0 +1,35 @@
+.todo {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #a0a0e4;
+    padding: 5%;
+}
+input {
+    padding: 4px;
+}
+button {
+    padding:  4px;
+    background: #adff2f;
+}
+
+.delete-btn {
+    background: #ff0066;
+    float: right;
+}
+.edit-save-btn {
+    float: right;
+}
+.eachItems {
+    border: 2px solid #ccc;
+    padding: 4px;
+    margin: 5px 0;
+    width: 250px;
+}
+.item {
+    float: left;
+}
+.eachItems::after, .clearfix::after {
+    clear: both;
+    content: "";
+    display: table;
+}
